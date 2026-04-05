@@ -1,0 +1,488 @@
+{
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate" : "2026-03-20T08:22:35.342-00:00",
+	"Sources" : 
+	[
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "7zip.7zip"
+				},
+				{
+					"PackageIdentifier" : "Audacity.Audacity"
+				},
+				{
+					"PackageIdentifier" : "AutoHotkey.AutoHotkey"
+				},
+				{
+					"PackageIdentifier" : "TGRMNSoftware.BulkRenameUtility"
+				},
+				{
+					"PackageIdentifier" : "CPUID.CPU-Z.MSI"
+				},
+				{
+					"PackageIdentifier" : "CPUID.CPU-Z"
+				},
+				{
+					"PackageIdentifier" : "CrystalDewWorld.CrystalDiskInfo.KureiKeiEdition"
+				},
+				{
+					"PackageIdentifier" : "CrystalDewWorld.CrystalDiskMark"
+				},
+				{
+					"PackageIdentifier" : "Docker.DockerDesktop"
+				},
+				{
+					"PackageIdentifier" : "REALiX.HWiNFO"
+				},
+				{
+					"PackageIdentifier" : "ImageMagick.ImageMagick"
+				},
+				{
+					"PackageIdentifier" : "MiKTeX.MiKTeX"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VSTOR"
+				},
+				{
+					"PackageIdentifier" : "NextDNS.NextDNS"
+				},
+				{
+					"PackageIdentifier" : "Notepad++.Notepad++"
+				},
+				{
+					"PackageIdentifier" : "Proton.ProtonVPN"
+				},
+				{
+					"PackageIdentifier" : "LizardByte.Sunshine"
+				},
+				{
+					"PackageIdentifier" : "RARLab.WinRAR"
+				},
+				{
+					"PackageIdentifier" : "winaero.tweaker"
+				},
+				{
+					"PackageIdentifier" : "AntibodySoftware.WizTree"
+				},
+				{
+					"PackageIdentifier" : "Zen-Team.Zen-Browser"
+				},
+				{
+					"PackageIdentifier" : "LocalSend.LocalSend"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64"
+				},
+				{
+					"PackageIdentifier" : "Nilesoft.Shell"
+				},
+				{
+					"PackageIdentifier" : "glzr-io.glazewm"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli"
+				},
+				{
+					"PackageIdentifier" : "GoLang.Go"
+				},
+				{
+					"PackageIdentifier" : "Apple.Bonjour"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.CLRTypesSQLServer.2019"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2008.x64"
+				},
+				{
+					"PackageIdentifier" : "Neovim.Neovim"
+				},
+				{
+					"PackageIdentifier" : "AmN.yasb"
+				},
+				{
+					"PackageIdentifier" : "Google.QuickShare"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.msmpi"
+				},
+				{
+					"PackageIdentifier" : "karlstav.cava"
+				},
+				{
+					"PackageIdentifier" : "RevoUninstaller.RevoUninstaller"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.GameInput"
+				},
+				{
+					"PackageIdentifier" : "Oracle.JDK.22"
+				},
+				{
+					"PackageIdentifier" : "Nvidia.CUDA"
+				},
+				{
+					"PackageIdentifier" : "Nvidia.PhysX"
+				},
+				{
+					"PackageIdentifier" : "Nvidia.FrameView"
+				},
+				{
+					"PackageIdentifier" : "voidtools.Everything"
+				},
+				{
+					"PackageIdentifier" : "Vitzo.ClipClip"
+				},
+				{
+					"PackageIdentifier" : "DevelopedMethods.playit"
+				},
+				{
+					"PackageIdentifier" : "OpenJS.NodeJS.22"
+				},
+				{
+					"PackageIdentifier" : "Oracle.JDK.17"
+				},
+				{
+					"PackageIdentifier" : "Oracle.JDK.21"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WebDeploy"
+				},
+				{
+					"PackageIdentifier" : "CodeSector.TeraCopy"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Community"
+				},
+				{
+					"PackageIdentifier" : "Adobe.CreativeCloud"
+				},
+				{
+					"PackageIdentifier" : "Guru3D.Afterburner"
+				},
+				{
+					"PackageIdentifier" : "OmicronLab.Avro"
+				},
+				{
+					"PackageIdentifier" : "Wagnardsoft.DisplayDriverUninstaller"
+				},
+				{
+					"PackageIdentifier" : "IObit.IObitSysInfo"
+				},
+				{
+					"PackageIdentifier" : "Tonec.InternetDownloadManager"
+				},
+				{
+					"PackageIdentifier" : "Mega.MEGASync"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Edge"
+				},
+				{
+					"PackageIdentifier" : "Smogon.PokemonShowdown"
+				},
+				{
+					"PackageIdentifier" : "Guru3D.RTSS"
+				},
+				{
+					"PackageIdentifier" : "Rainmeter.Rainmeter"
+				},
+				{
+					"PackageIdentifier" : "Valve.Steam"
+				},
+				{
+					"PackageIdentifier" : "EZBSystems.UltraISO"
+				},
+				{
+					"PackageIdentifier" : "Unigine.HeavenBenchmark"
+				},
+				{
+					"PackageIdentifier" : "VideoLAN.VLC"
+				},
+				{
+					"PackageIdentifier" : "RamenSoftware.Windhawk"
+				},
+				{
+					"PackageIdentifier" : "ZeroTier.ZeroTierOne"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
+				},
+				{
+					"PackageIdentifier" : "JavadMotallebi.NeatDownloadManager"
+				},
+				{
+					"PackageIdentifier" : "eVenture.HideMe"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.8"
+				},
+				{
+					"PackageIdentifier" : "Cloudflare.cloudflared"
+				},
+				{
+					"PackageIdentifier" : "Appest.TickTick"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86"
+				},
+				{
+					"PackageIdentifier" : "HiBitSoftware.StartUpManager"
+				},
+				{
+					"PackageIdentifier" : "Google.ChromeRemoteDesktopHost"
+				},
+				{
+					"PackageIdentifier" : "DBBrowserForSQLite.DBBrowserForSQLite"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2005.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.Runtime.3_1"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.10"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.XNARedist"
+				},
+				{
+					"PackageIdentifier" : "Futuremark.FuturemarkSystemInfo"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsSDK.10.0.26100"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
+					"PackageIdentifier" : "Atuinsh.Atuin"
+				},
+				{
+					"PackageIdentifier" : "BurntSushi.ripgrep.MSVC"
+				},
+				{
+					"PackageIdentifier" : "DevToys-app.DevToys"
+				},
+				{
+					"PackageIdentifier" : "Fastfetch-cli.Fastfetch"
+				},
+				{
+					"PackageIdentifier" : "Voidstar.FilePilot"
+				},
+				{
+					"PackageIdentifier" : "Flow-Launcher.Flow-Launcher"
+				},
+				{
+					"PackageIdentifier" : "GitHub.GitHubDesktop"
+				},
+				{
+					"PackageIdentifier" : "Gyan.FFmpeg"
+				},
+				{
+					"PackageIdentifier" : "JesseDuffield.lazygit"
+				},
+				{
+					"PackageIdentifier" : "Modrinth.ModrinthApp"
+				},
+				{
+					"PackageIdentifier" : "NextDNS.NextDNS.CLI"
+				},
+				{
+					"PackageIdentifier" : "Rustlang.Rustup"
+				},
+				{
+					"PackageIdentifier" : "ajeetdsouza.zoxide"
+				},
+				{
+					"PackageIdentifier" : "arndawg.zellij-windows"
+				},
+				{
+					"PackageIdentifier" : "Obsidian.Obsidian"
+				},
+				{
+					"PackageIdentifier" : "Overwolf.CurseForge"
+				},
+				{
+					"PackageIdentifier" : "eza-community.eza"
+				},
+				{
+					"PackageIdentifier" : "Comfy.ComfyUI-Desktop"
+				},
+				{
+					"PackageIdentifier" : "ItchIo.Itch"
+				},
+				{
+					"PackageIdentifier" : "jqlang.jq"
+				},
+				{
+					"PackageIdentifier" : "junegunn.fzf"
+				},
+				{
+					"PackageIdentifier" : "oschwartz10612.Poppler"
+				},
+				{
+					"PackageIdentifier" : "sharkdp.fd"
+				},
+				{
+					"PackageIdentifier" : "sxyazi.yazi"
+				},
+				{
+					"PackageIdentifier" : "tldr-pages.tlrc"
+				},
+				{
+					"PackageIdentifier" : "voidtools.Everything.Cli"
+				},
+				{
+					"PackageIdentifier" : "Python.Python.3.11"
+				},
+				{
+					"PackageIdentifier" : "Ollama.Ollama"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+				},
+				{
+					"PackageIdentifier" : "Starpine.Screenbox"
+				},
+				{
+					"PackageIdentifier" : "M2Team.NanaZip"
+				},
+				{
+					"PackageIdentifier" : "File-New-Project.EarTrumpet"
+				},
+				{
+					"PackageIdentifier" : "JeniusApps.Ambie"
+				},
+				{
+					"PackageIdentifier" : "Canonical.Ubuntu"
+				},
+				{
+					"PackageIdentifier" : "FilesCommunity.FilesPreview"
+				},
+				{
+					"PackageIdentifier" : "JiriPolasek.ColorsforCommandPalette"
+				},
+				{
+					"PackageIdentifier" : "JiriPolasek.RecentFilesforCommandPalette"
+				},
+				{
+					"PackageIdentifier" : "JonahFintzDEV.CmdPal-RandomDataGenerator"
+				},
+				{
+					"PackageIdentifier" : "OffSec.KaliLinux"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Teams"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.AppInstaller"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DirectX"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCLibs.14"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsAppRuntime.1.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WSL"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Teams.Free"
+				},
+				{
+					"PackageIdentifier" : "Seelen.SeelenUI"
+				},
+				{
+					"PackageIdentifier" : "lin-ycv.EverythingCmdPal3"
+				},
+				{
+					"PackageIdentifier" : "lin-ycv.EverythingCmdPal"
+				},
+				{
+					"PackageIdentifier" : "jdalley.ToggleHDRforCommandPalette"
+				},
+				{
+					"PackageIdentifier" : "JanDeDobbeleer.OhMyPosh"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://cdn.winget.microsoft.com/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		},
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "XP99VR1BPSBQJ2"
+				},
+				{
+					"PackageIdentifier" : "XP89DCGQ3K6VLD"
+				},
+				{
+					"PackageIdentifier" : "XPFFH613W8V6LV"
+				},
+				{
+					"PackageIdentifier" : "XPFFTQ032PTPHF"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
+				"Identifier" : "StoreEdgeFD",
+				"Name" : "msstore",
+				"Type" : "Microsoft.Rest"
+			}
+		}
+	],
+	"WinGetVersion" : "1.28.220"
+}
