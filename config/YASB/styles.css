@@ -615,8 +615,8 @@
     background-color: rgba(24, 24, 37, 0.92);
     border: 1px solid rgba(180, 190, 254, 0.08);
     border-radius: 12px;
-    min-width: 400px;
-    max-width: 400px;
+    min-width: 430px;
+    max-width: 430px;
     min-height: 480px;
     max-height: 480px;
 }

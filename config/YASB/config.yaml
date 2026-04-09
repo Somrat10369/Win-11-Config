@@ -1,6 +1,6 @@
 # YASB Configuration
-# Generated for: GlazeWM | Catppuccin Mocha | Blur/Acrylic | Top | 36px
-# Place this file at: C:/users/{username}/.config/yasb/config.yaml
+# GlazeWM | Catppuccin Mocha | Glazing Mocha
+# Place this file at: C:/users/{username}/.config/yasb/config.yaml and you need to Replace {username} with your username and insert your wallpaper path at line 87
 
 watch_stylesheet: true
 watch_config: true
@@ -84,10 +84,8 @@ widgets:
     type: "yasb.wallpapers.WallpapersWidget"
     options:
       label: "<span>󰸉</span>"
-      image_path: "C:/Essantials/Documents/Code/Win 11 Config/Wallpaper"
+      image_path: "C:/Essantials/Documents/Code/Win 11 Config/Wallpaper" # Set your path
       update_interval: 60
-     # auto_change: true
-     # on_change_command: "wal -i {image_path}"
       gallery:
         enabled: true
         blur: true
@@ -421,9 +419,13 @@ widgets:
           api_endpoint: "http://localhost:11434/v1"
           credential: "ollama"
           models:
-            - name: "huihui_ai/qwen3.5-abliterated:9b"
-              label: "Qwen3.5 9B"
+            - name: "qwen3.5:9b"
+              label: "Qwen3.5"
               default: true
+            - name : "qwen2.5-coder:1.5b-base"
+              label: "qwen 2.5 coder"
+            - name : "huihui_ai/qwen3.5-abliterated:9b"
+              label: "Qwen 3.5 alt"            
       animation:
         enabled: true
         type: "fadeInOut"
