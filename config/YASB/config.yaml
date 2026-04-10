@@ -1,6 +1,6 @@
 # YASB Configuration
 # GlazeWM | Catppuccin Mocha | Glazing Mocha
-# Place this file at: C:/users/{username}/.config/yasb/config.yaml and you need to Replace {username} with your username and insert your wallpaper path at line 87
+# Place this file at: C:/users/{username}/.config/yasb/config.yaml and you need to Replace {username} with your username and insert your wallpaper path at line 81. also provide the info at line308 to use the ai chat.
 
 watch_stylesheet: true
 watch_config: true
@@ -44,28 +44,23 @@ bars:
     widgets:
       left:
         - "power_menu"
-      # - "home_menu"
-      # - "active_window"
         - "notes"
         - "todo"
         - "bin"
         - "ai_chat"
-     #  - "cava"
         - "glazewm_workspaces"               
       
                 
       center:
-      # - "media" 
         - "cpu"
         - "gpu"
         - "pomodoro"
         - "memory"
         - "disk"
-      # - "traffic"
+
         
 
-      right:        
-      # - "github   
+      right:          
         - "systray" 
         - "wallpapers"          
         - "brightness"        
@@ -79,12 +74,11 @@ bars:
 
 widgets:
 
-  # ─── LEFT ───────────────────────────────────────────────────────────────────
   wallpapers:
     type: "yasb.wallpapers.WallpapersWidget"
     options:
       label: "<span>󰸉</span>"
-      image_path: "C:/Essantials/Documents/Code/Win 11 Config/Wallpaper" # Set your path
+      image_path: "Path to wallpapers" # Set your path
       update_interval: 60
       gallery:
         enabled: true
@@ -102,23 +96,6 @@ widgets:
         on_left: "toggle_gallery"
         on_right: "toggle_label"
 
-  cava:
-    type: "yasb.cava.CavaWidget"
-    options:
-      bar_height: 12
-      min_bar_height: 0
-      gradient: 1
-      foreground: "#89b4fa"
-      gradient_color_1: '#74c7ec'
-      gradient_color_2: '#89b4fa'
-      gradient_color_3: '#cba6f7'
-      bars_number: 8
-      bar_spacing: 2
-      bar_width: 4
-      bar_type: "bars"
-      framerate: 60
-      hide_empty: true
-  
   bin:
     type: "yasb.recycle_bin.RecycleBinWidget"
     options:
@@ -148,51 +125,6 @@ widgets:
       enable_scroll_switching: true
       animation: true
 
-  active_window:
-    type: "yasb.active_window.ActiveWindowWidget"
-    options:
-      label: "{win[title]}"
-      label_alt: "[{win[process][name]}]"
-      label_no_window: ""
-      label_icon: true
-      label_icon_size: 16
-      max_length: 48
-      max_length_ellipsis: "..."
-      monitor_exclusive: true
-      callbacks:
-        on_left: "toggle_label"
-        on_middle: "do_nothing"
-        on_right: "do_nothing"
-      animation:
-        enabled: true
-        type: "fadeInOut"
-        duration: 200
-
-  home_menu:
-    type: "yasb.home.HomeWidget"
-    options:
-      label: "<span>\udb81\udf17</span>"
-      menu_list:
-        - { title: "Home Folder", path: "~" }
-        - { title: "Downloads", path: "~/Downloads" }
-        - { title: "Documents", path: "~/Documents" }
-        - { separator: true }
-        - { title: "Windows Settings", uri: "ms-settings:" }
-        - { title: "Task Manager", command: "taskmgr.exe" }
-        - { separator: true }
-        - { title: "Terminal", command: "wt.exe" }
-      system_menu: true
-      power_menu: true
-      blur: true
-      round_corners: true
-      round_corners_type: "normal"
-      border_color: "System"
-      alignment: "left"
-      direction: "down"
-      offset_top: 6
-      offset_left: 0
-
-  # ─── CENTER ─────────────────────────────────────────────────────────────────
 
   clock:
     type: "yasb.clock.ClockWidget"
@@ -219,49 +151,6 @@ widgets:
         on_left: "toggle_label"
         on_middle: "do_nothing"
         on_right: "toggle_calendar"
-      animation:
-        enabled: true
-        type: "fadeInOut"
-        duration: 200
-
-  media:
-    type: "yasb.media.MediaWidget"
-    options:
-      label: "{title}{s}{artist}"
-      label_alt: "{title}"
-      separator: " - "
-      hide_empty: true
-      max_field_size:
-        label: 22
-        label_alt: 30
-      show_thumbnail: true
-      controls_only: false
-      controls_left: true
-      controls_hide: false
-      thumbnail_alpha: 80
-      thumbnail_padding: 8
-      thumbnail_corner_radius: 12
-      icons:
-        prev_track: "\ue892"
-        next_track: "\ue893"
-        play: "\ue768"
-        pause: "\ue769"
-      media_menu:
-        blur: true
-        round_corners: true
-        round_corners_type: "normal"
-        border_color: "system"
-        alignment: "center"
-        direction: "down"
-        offset_top: 6
-        offset_left: 0
-        thumbnail_corner_radius: 8
-        thumbnail_size: 120
-        show_source: true
-      callbacks:
-        on_left: "toggle_label"
-        on_middle: "toggle_play_pause"
-        on_right: "toggle_media_menu"
       animation:
         enabled: true
         type: "fadeInOut"
@@ -416,22 +305,16 @@ widgets:
         on_right: "do_nothing"
       providers:
         - provider: "Ollama"
-          api_endpoint: "http://localhost:11434/v1"
+          api_endpoint: "http://localhost:11434/v1" #default
           credential: "ollama"
           models:
-            - name: "qwen3.5:9b"
-              label: "Qwen3.5"
-              default: true
-            - name : "qwen2.5-coder:1.5b-base"
-              label: "qwen 2.5 coder"
-            - name : "huihui_ai/qwen3.5-abliterated:9b"
-              label: "Qwen 3.5 alt"            
+            - name: "" #you can find the name using 'ollama list'
+              label: "You have to set it up in the config.yaml" 
+              default: true                      
       animation:
         enabled: true
         type: "fadeInOut"
         duration: 200
-
-  # ─── RIGHT ──────────────────────────────────────────────────────────────────
 
   notifications:
     type: "yasb.notifications.NotificationsWidget"
@@ -445,65 +328,6 @@ widgets:
         default: "\udb80\udc9a"
       callbacks:
         on_left: "toggle_notification"
-        on_middle: "do_nothing"
-        on_right: "toggle_label"
-      animation:
-        enabled: true
-        type: "fadeInOut"
-        duration: 200
-
-  github:
-    type: "yasb.github.GithubWidget"
-    options:
-      label: "<span>\ueba1</span>"
-      label_alt: "{data} Notifications"
-      # token: "ghp_your_token_here"  # Or use env var YASB_GITHUB_TOKEN
-      token: ""
-      max_notification: 30
-      only_unread: false
-      update_interval: 300
-      notification_dot:
-        enabled: true
-        corner: "top_right"
-        color: "#f38ba8"
-        margin: [0, 2]
-      menu:
-        blur: true
-        round_corners: true
-        round_corners_type: "normal"
-        border_color: "System"
-        alignment: "right"
-        direction: "down"
-        offset_top: 6
-        offset_left: 0
-        show_categories: false
-      animation:
-        enabled: true
-        type: "fadeInOut"
-        duration: 200
-
-  traffic:
-    type: "yasb.traffic.TrafficWidget"
-    options:
-      label: "\ueab4 {download_speed} \ueab7 {upload_speed}"
-      label_alt: "D: {session_downloaded}  U: {session_uploaded}"
-      update_interval: 1000
-      hide_if_offline: false
-      speed_unit: "bits"
-      hide_decimal: false
-      menu:
-        blur: true
-        round_corners: true
-        round_corners_type: "normal"
-        border_color: "system"
-        alignment: "right"
-        direction: "down"
-        offset_top: 6
-        offset_left: 0
-        show_interface_name: true
-        show_internet_info: true
-      callbacks:
-        on_left: "toggle_menu"
         on_middle: "do_nothing"
         on_right: "toggle_label"
       animation:
@@ -609,7 +433,7 @@ widgets:
       callbacks:
         on_left: "toggle_label"
         on_middle: "do_nothing"
-        on_right: "exec cmd /c start \"\" \"C:/Users/{username}/Desktop/wiztree.lnk\""
+        on_right: "exec cmd /c start \"\" \"C:/Users/{username}/Desktop/wiztree.lnk\"" 
       animation:
         enabled: true
         type: "fadeInOut"
